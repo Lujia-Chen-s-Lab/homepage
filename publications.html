@@ -10,11 +10,17 @@
       <link href="css/bootstrap.min.css" rel="stylesheet">
       <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
       <link href="css/theme.css" rel="stylesheet">
+      <style>
+         #published a {
+            color: black;
+         }
+      </style>
    </head>
    <body>
       <div class="container">
          <header class="jumbotron subhead" id="overview">
             <p class="lead"> University of Pittsburgh</p>
+            <p> Department of Biomedical Informatics</p>
             <h1>Lujia Research Lab</h1>
          </header>
          <div class="masthead">
@@ -26,8 +32,6 @@
                         <li><a href="people.html">People</a></li>
                         <li><a href="research.html">Research</a></li>
                         <li class="active"><a href="#">Publications</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="news.html">News</a></li>
                         <li><a href="teaching.html">Teaching</a></li>
                         <li><a href="contact.html">Contact</a></li>
                      </ul>
@@ -41,7 +45,6 @@
                <ul class="nav nav-list bs-docs-sidenav" data-spy="affix" data-offset-top="200" data-offset-bottom="260">
                   <li><a href="#published"> Journal Publications</a></li>
                   <li><a href="#production">Papers in production</a></li>
-                  
                </ul>
             </div>
             <div class="span8 offset1">
@@ -49,56 +52,87 @@
                   <div class="page-header">
                      <h3>Journal Publications</h3>
                   </div>
-                  <ol>
-                     <li>Zhang, H., Lu, X., Chen, L. (2023) scGEM: unveiling the nested tree-structured gene co-expressing modules
-                        in single cell transcriptome data. Cancers, 15 (17), 4277.</li>
+                  <ol style="text-align: justify;">
+                     <li><a href="https://doi.org/10.1038/nmeth.3773">Hill, S., Heiser, L., Cokelaer, T. et al. Inferring causal molecular networks: empirical assessment through a community-based effort. Nat Methods 13, 310–318 (2016).</a></li>
                      <br>
-                     <li>Sun, R., Zhao, H., Gao, D.S., Ni, A., Li, H., Chen, L., Lu, X., Chen, K. and Lu, B. (2023) Amphiregulin couples
-                        IL1RL1+ regulatory T cells and cancer-associated fibroblasts to impede antitumor immunity. Science
-                        Advances, 9(34), 7399.</li><br>
-                     <li>Young, J., Ren, S., Chen, L., Lu, X. (2023) Revealing the impact of genomic alterations on cancer cell
-                        signaling. Cancers, 15(15), 3857.</li><br>
-                     <li>Chen, X.*, Chen, L.*, et al (2022). An individualized causal framework for learning intercellular communication
-                        networks that define microenvironments of individual tumors. Plos Computational Biology, 18,12</li><br>
-                     <li>Liu, Z., Cai, C., Ma, X., Liu, J., Chen, L., Lui, V.W.Y., Cooper, G.F. and Lu, X. (2022) A Novel Bayesian
-                        Framework Infers Driver Activation States and Reveals Pathway-Oriented Molecular Subtypes in Head and
-                        Neck Cancer. Cancers, 14(19), p.4825.</li><br>
-                     <li>Ruan, H., Leibowitz, B.J., Peng, Y., Shen, L., Chen, L., Kuang, C., Schoen, R.E., Lu, X., Zhang, L. and Yu, J.
-                        (2022) Targeting Myc-driven stress vulnerability in mutant KRAS colorectal cancer. Molecular
-                        biomedicine, 3(1), pp.1-16.</li><br>
-                     <li>Leibowitz, B.J., Zhao, G., Wei, L., Ruan, H., Epperly, M., Chen, L., Lu, X., Greenberger, J.S., Zhang, L. and
-                        Yu, J. (2021) Interferon b drives intestinal regeneration after radiation. Science Advance.</li><br>
-                     <li>Chen, X., Chen, L., et al (2021). An individualized causal framework for learning intercellular communication
-                        networks that define microenvironments of individual tumors, bioRxiv</li><br>
-                     <li>Ruan, H., Li, X., Xu, X., Leibowitz, B.J., Tong, J., Chen, L., Ao, L., Xing, W., Luo, J., Yu, Y. and Schoen, R.E.
-                        (2020) eIF4ES209 phosphorylation licenses Myc-and stress-driven oncogenesis, eLife. </li><br>
-                     
-                     <li>Cai, C., Cooper, G.F., Lu, K.N., Ma, X., Xu, S., Zhao, Z., Chen, X., Xue, Y., Lee, A.V., Clark, N., Chen, V., Lu,
-                        S., Chen, L., Lu X. (2019) Systematic Discovery of the Functional Impact of Somatic Genome Alterations in
-                        Individual Tumors through Tumor-specific Causal Inference, PLoS Comput Biol</li><br>
-                     <li>Chen, L., Lu, X. (2018) Discovering functional impacts of miRNAs in cancers using a causal deep learning
-                        model, BMC medical genomics, 11, 116.</li><br>
-                     <li>Chen, L., Lu, X. (2018) Making deep learning models transparent, J of Med Artif Intell, 1, 5.</li><br>
-                     <li>Ding, M.Q., Chen, L., Cooper G.F., Young, J.D., Lu X. (2018) Precision Oncology beyond Targeted Therapy:
+                     <li><a href="https://aacrjournals.org/mcr/article/16/2/269/89839/Precision-Oncology-beyond-Targeted-Therapy">Ding, M.Q., Chen, L., Cooper G.F., Young, J.D., Lu X. (2018) Precision Oncology beyond Targeted Therapy:
                         Combining Omics Data with Machine Learning Matches the Majority of Cancer Cells to Effective
-                        Therapeutics, Molecular cancer research : MCR, 16, 269-278.</li><br>
-                     <li>Lu, S., Fan, X., Chen, L., Lu, X. (2018) A novel method of using Deep Belief Networks and genetic
-                        perturbation data to search for yeast signaling pathways, Plos One, 13, 9. </li><br>
-                     <li>Chen, L., Cai C., Chen V., Lu X. (2016) Learning a hierarchical representation of the yeast transcriptomic
-                        machinery using an autoencoder model, BMC bioinformatics, 17 Suppl 1, 9.</li><br>
-                     <li>Lu, S., Cai C., Yan, G., Zhou, Z., Wan, Y., Chen, V., Chen, L., Cooper GF., Oveid LM., Hannun Y.A., Lee
-                        A.V., Lu, X. (2016) Signal-Oriented Pathway Analyses Reveal a Signaling Complex as a Synthetic Lethal
-                        Target for p53 Mutations, Cancer research, 76, 6785-6794.</li><br>
-                     <li>Hill, S.M., et al. (2016) Inferring causal molecular networks: empirical assessment through a communitybased effort, Nat Methods, 13, 310-318.</li>
-                     <li>Chen, L., Cai C., Chen V., Lu X. (2015) Trans-species learning of cellular signaling systems with bimodal
-                        deep belief networks, Bioinformatics, 31, 3008-3015.</li><br>
-                     <li>Cai, C., Chen, L., Jiang, X., Lu X. (2014) Modeling signal transduction from protein phosphorylation to gene
-                        expression, Cancer informatics, 13, 59-67.</li><br>
-                     <li>Montefusco, D.J.*, Chen, L.*, Matmati N., Lu S., Newcomb B., Cooper G.F., Hannun Y.A., Lu X. (2013)
-                        Distinct signaling roles of ceramide species in yeast revealed through systematic perturbation and systems
-                        biology analyses, Science signaling, 6, rs14. (* indicates co-first author)</li><br>
-                     <li>Jin, B., Chen, V., Chen, L., Lu, X. (2011) Mapping annotations with textual evidence using an scLDA model,
-                        AMIA ... Annual Symposium proceedings. AMIA Symposium, 2011, 834-842.</li><br>
+                        Therapeutics, Molecular cancer research : MCR, 16, 269-278.</a></li><br>
+                     <li><a href="https://link.springer.com/article/10.1186/s12859-015-0852-1">Chen, L., Cai C., Chen V., Lu X. (2016) Learning a hierarchical representation of the yeast transcriptomic
+                           machinery using an autoencoder model, BMC bioinformatics, 17 Suppl 1, 9.</a></li><br>
+
+                     <li><a href="https://www.science.org/doi/abs/10.1126/scisignal.2004515">Montefusco, D.J.*, Chen, L.*, Matmati N., Lu S., Newcomb B., Cooper G.F., Hannun Y.A., Lu X. (2013)
+                              Distinct signaling roles of ceramide species in yeast revealed through systematic perturbation and systems
+                              biology analyses, Science signaling, 6, rs14. (* indicates co-first author)</a></li><br>
+                     
+                     <li><a href="https://academic.oup.com/bioinformatics/article/31/18/3008/241086">Chen, L., Cai C., Chen V., Lu X. (2015) Trans-species learning of cellular signaling systems with bimodal
+                                 deep belief networks, Bioinformatics, 31, 3008-3015.</a></li><br>
+                     
+                     <li><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1007088">Cai, C., Cooper, G.F., Lu, K.N., Ma, X., Xu, S., Zhao, Z., Chen, X., Xue, Y., Lee, A.V., Clark, N., Chen, V., Lu,
+                                    S., Chen, L., Lu X. (2019) Systematic Discovery of the Functional Impact of Somatic Genome Alterations in
+                                    Individual Tumors through Tumor-specific Causal Inference, PLoS Comput Biol</a></li><br>
+                     
+                     <li><a href="https://www.science.org/doi/full/10.1126/sciadv.abi5253">Leibowitz, B.J., Zhao, G., Wei, L., Ruan, H., Epperly, M., Chen, L., Lu, X., Greenberger, J.S., Zhang, L. and
+                                       Yu, J. (2021) Interferon b drives intestinal regeneration after radiation. Science Advance.</a></li><br>
+                     
+
+                     <li><a href="https://elifesciences.org/articles/60151">Ruan, H., Li, X., Xu, X., Leibowitz, B.J., Tong, J., Chen, L., Ao, L., Xing, W., Luo, J., Yu, Y. and Schoen, R.E.
+                                          (2020) eIF4ES209 phosphorylation licenses Myc-and stress-driven oncogenesis, eLife.</a></li><br>
+
+                     <li><a href="https://journals.sagepub.com/doi/full/10.4137/CIN.S13883">Cai, C., Chen, L., Jiang, X., Lu X. (2014) Modeling signal transduction from protein phosphorylation to gene
+                                             expression, Cancer informatics, 13, 59-67.</a></li><br>
+
+                     <li><a href="https://www.science.org/doi/full/10.1126/sciadv.add7399">Sun, R., Zhao, H., Gao, D.S., Ni, A., Li, H., Chen, L., Lu, X., Chen, K. and Lu, B. (2023) Amphiregulin couples
+                                                IL1RL1+ regulatory T cells and cancer-associated fibroblasts to impede antitumor immunity. Science
+                                                Advances, 9(34), 7399.</a></li><br>
+
+
+                     <li><a href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010761">Chen, X.*, Chen, L.*, et al (2022). An individualized causal framework for learning intercellular communication
+                        networks that define microenvironments of individual tumors. Plos Computational Biology, 18,12</a></li><br>
+
+                     <li><a href="https://link.springer.com/article/10.1186/s43556-022-00070-7">Ruan, H., Leibowitz, B.J., Peng, Y., Shen, L., Chen, L., Kuang, C., Schoen, R.E., Lu, X., Zhang, L. and Yu, J.
+                           (2022) Targeting Myc-driven stress vulnerability in mutant KRAS colorectal cancer. Molecular
+                           biomedicine, 3(1), pp.1-16.</a></li><br>
+
+                     <li><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0203871">Lu, S., Fan, X., Chen, L., Lu, X. (2018) A novel method of using Deep Belief Networks and genetic
+                              perturbation data to search for yeast signaling pathways, Plos One, 13, 9. </a></li><br>
+
+                     <li><a href="https://jmai.amegroups.org/article/view/4428">Chen, L., Lu, X. (2018) Making deep learning models transparent, J of Med Artif Intell, 1, 5.</a></li><br>
+                     
+
+                     <li><a href="https://link.springer.com/article/10.1186/s12920-018-0432-0">Chen, L., Lu, X. (2018) Discovering functional impacts of miRNAs in cancers using a causal deep learning
+                        model, BMC medical genomics, 11, 116.</a></li><br>
+
+                     <li><a href="https://aacrjournals.org/cancerres/article/76/23/6785/616062/Signal-Oriented-Pathway-Analyses-Reveal-a">Lu, S., Cai C., Yan, G., Zhou, Z., Wan, Y., Chen, V., Chen, L., Cooper GF., Oveid LM., Hannun Y.A., Lee
+                           A.V., Lu, X. (2016) Signal-Oriented Pathway Analyses Reveal a Signaling Complex as a Synthetic Lethal
+                           Target for p53 Mutations, Cancer research, 76, 6785-6794.</a></li><br>
+
+                     <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3243146/">Jin, B., Chen, V., Chen, L., Lu, X. (2011) Mapping annotations with textual evidence using an scLDA model,
+                        AMIA ... Annual Symposium proceedings. AMIA Symposium, 2011, 834-842.</a></li><br>
+
+                     <li><a href="https://ascopubs.org/doi/abs/10.1200/JCO.23.01080">Chen, L., et al (2023). Machine Learning Predicts Oxaliplatin Benefit in Early Colon Cancer. Journal of
+                           Clinical Oncology.</a></li><br>
+
+                     <li><a href = "https://doi.org/10.2217/fon-2023-0658">Zhang, H., Lu, X., Lu, B., Gullo, G., & Chen, L. (2024). Measuring the composition of the tumor microenvironment with transcriptome analysis: past, present and future. Future Oncology.</a></li><br>
+                     
+                     <li><a href="https://www.mdpi.com/2072-6694/15/15/3857">Young, J., Ren, S., Chen, L., Lu, X. (2023) Revealing the impact of genomic alterations on cancer cell
+                        signaling. Cancers, 15(15), 3857.</a></li><br>
+
+
+                     <li><a href="https://doi.org/10.1038/s42256-024-00866-y">Ren, S., Cooper, G.F., Chen, L. et al. An interpretable deep learning framework for genome-informed precision oncology. Nat Mach Intell (2024).</a></li><br>
+
+                     <li><a href="https://doi.org/10.1158/1538-7445.AM2024-866">Noor Nedal Al-Bzour, Ayah Nedal Al-Bzour, Azhar Saeed, Lujia Chen, Anwaar Saeed; Abstract 866: Identification of survival-associated epithelial cell markers linked to TROP2 through single-cell and bulk sequencing analysis. Cancer Res 15 March 2024; 84 (6_Supplement): 866.</a></li><br>
+
+                     <li><a href="https://www.mdpi.com/2072-6694/15/17/4277">Zhang, H., Lu, X., Chen, L. (2023) scGEM: unveiling the nested tree-structured gene co-expressing modules
+                        in single cell transcriptome data. Cancers, 15 (17), 4277.</a></li>
+                     <br>
+                     
+                     
+                    
+                     <li><a href="https://www.mdpi.com/2072-6694/14/19/4825">Liu, Z., Cai, C., Ma, X., Liu, J., Chen, L., Lui, V.W.Y., Cooper, G.F. and Lu, X. (2022) A Novel Bayesian
+                        Framework Infers Driver Activation States and Reveals Pathway-Oriented Molecular Subtypes in Head and
+                        Neck Cancer. Cancers, 14(19), p.4825.</a></li><br>
+                     
                   </ol>
 
                   <section id="production">
@@ -106,11 +140,12 @@
                         <h3>Papers in Production</h3>
                      </div>
                      <ol>
-                        <li>Chen, L., et al (2023). Machine Learning Predicts Oxaliplatin Benefit in Early Colon Cancer. Journal of
-                           Clinical Oncology.</li><br>
+                        
                         <li>Zhang, H., Lu, X., Chen, L. Insights into the TME from integrative analysis of single-cell RNA-seq, bulk RNAseq, and spatial transcriptomic data.</li><br>
                      </ol>
                   </section>
+
+                  
                </section>
             </div>
          </div>
