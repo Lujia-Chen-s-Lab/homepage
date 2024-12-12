@@ -6,11 +6,10 @@ https://lujia-chen-s-lab.github.io/homepage/
 
 
 
-# test upload connetcting
 
 
-## Research Lab Website Design Template
 
+## Reference
 This is a research lab website template that can be used by university students / professors to create a simple website for showing and displaying their labs / research. 
 
 https://github.com/photonlines/Research-Lab-Website
